@@ -51,7 +51,7 @@ RUN git clone https://github.com/PX4/PX4-Autopilot.git --recursive \
 
 RUN sudo rm -r /PX4-Autopilot/Tools/simulation/gz \
     && chown -R $USER_UID:$USER_GID /PX4-Autopilot/build
-COPY source/arena_cbr_2024/gz /PX4-Autopilot/Tools/simulation/gz
+COPY source/gz /PX4-Autopilot/Tools/simulation/gz
 
 # && cp -r /arena_cbr_2024/gz /PX4-Autopilot/Tools/simulation/gz \
 # COPY /my_source/arena_cbr_2024/gz /PX4-Autopilot/Tools/simulation/gz \
