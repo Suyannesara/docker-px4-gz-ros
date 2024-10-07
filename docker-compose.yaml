@@ -1,0 +1,18 @@
+services:
+  ros-px4:
+    image: ros-px4:test
+    container_name: ros-px4
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: "ros"
+    network_mode: "host"
+    ipc: "host"
+    stdin_open: true
+    tty: true
+    volumes:
+      - $PWD/source:/my_source
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw --env=DISPLAY
+    environment:
+      - DISPLAY=:0
+      - LIBGL_ALWAYS_SOFTWARE=1

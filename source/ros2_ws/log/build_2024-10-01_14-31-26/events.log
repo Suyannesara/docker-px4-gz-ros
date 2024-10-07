@@ -1,0 +1,159 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000187] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.008061] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.008306] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/my_source/ros2_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/my_source/ros2_ws/install/cpp_pubsub'], 'cwd': '/my_source/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', 'suyanne-550XBE-350XBE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/my_source'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/my_source/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.057797] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.098696] (-) TimerEvent: {}
+[0.106790] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.113656] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.171904] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.178649] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.178878] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.179237] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.182026] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.198822] (-) TimerEvent: {}
+[0.250022] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.259484] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.259716] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.260233] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.268638] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.298939] (-) TimerEvent: {}
+[0.377422] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399059] (-) TimerEvent: {}
+[0.470414] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.499184] (-) TimerEvent: {}
+[0.522164] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.527282] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.536704] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.551052] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.568553] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599307] (-) TimerEvent: {}
+[0.617628] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.620810] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.695706] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.699397] (-) TimerEvent: {}
+[0.714843] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.739013] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.748217] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.799526] (-) TimerEvent: {}
+[0.817613] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.818037] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.899731] (-) TimerEvent: {}
+[0.946197] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.947579] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.999848] (-) TimerEvent: {}
+[1.063661] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.074504] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.076205] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /my_source/ros2_ws/build/cpp_pubsub\n'}
+[1.082208] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.082641] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.083824] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/my_source/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/my_source/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', 'suyanne-550XBE-350XBE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/my_source'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/my_source/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.099936] (-) TimerEvent: {}
+[1.125842] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.125998] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.200035] (-) TimerEvent: {}
+[1.300335] (-) TimerEvent: {}
+[1.400584] (-) TimerEvent: {}
+[1.500834] (-) TimerEvent: {}
+[1.601078] (-) TimerEvent: {}
+[1.701371] (-) TimerEvent: {}
+[1.801653] (-) TimerEvent: {}
+[1.901956] (-) TimerEvent: {}
+[2.002248] (-) TimerEvent: {}
+[2.102561] (-) TimerEvent: {}
+[2.202893] (-) TimerEvent: {}
+[2.303201] (-) TimerEvent: {}
+[2.403477] (-) TimerEvent: {}
+[2.503758] (-) TimerEvent: {}
+[2.604027] (-) TimerEvent: {}
+[2.704310] (-) TimerEvent: {}
+[2.804587] (-) TimerEvent: {}
+[2.904877] (-) TimerEvent: {}
+[3.005211] (-) TimerEvent: {}
+[3.105526] (-) TimerEvent: {}
+[3.205836] (-) TimerEvent: {}
+[3.306120] (-) TimerEvent: {}
+[3.406396] (-) TimerEvent: {}
+[3.506666] (-) TimerEvent: {}
+[3.606923] (-) TimerEvent: {}
+[3.707205] (-) TimerEvent: {}
+[3.807484] (-) TimerEvent: {}
+[3.907831] (-) TimerEvent: {}
+[4.008070] (-) TimerEvent: {}
+[4.108345] (-) TimerEvent: {}
+[4.208588] (-) TimerEvent: {}
+[4.308840] (-) TimerEvent: {}
+[4.409121] (-) TimerEvent: {}
+[4.509429] (-) TimerEvent: {}
+[4.609701] (-) TimerEvent: {}
+[4.709938] (-) TimerEvent: {}
+[4.810210] (-) TimerEvent: {}
+[4.910480] (-) TimerEvent: {}
+[5.010775] (-) TimerEvent: {}
+[5.111054] (-) TimerEvent: {}
+[5.161810] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.211185] (-) TimerEvent: {}
+[5.311451] (-) TimerEvent: {}
+[5.363122] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[5.411576] (-) TimerEvent: {}
+[5.511832] (-) TimerEvent: {}
+[5.612098] (-) TimerEvent: {}
+[5.712393] (-) TimerEvent: {}
+[5.812687] (-) TimerEvent: {}
+[5.912921] (-) TimerEvent: {}
+[6.013217] (-) TimerEvent: {}
+[6.113481] (-) TimerEvent: {}
+[6.213752] (-) TimerEvent: {}
+[6.313984] (-) TimerEvent: {}
+[6.414246] (-) TimerEvent: {}
+[6.514510] (-) TimerEvent: {}
+[6.614743] (-) TimerEvent: {}
+[6.714982] (-) TimerEvent: {}
+[6.815250] (-) TimerEvent: {}
+[6.915516] (-) TimerEvent: {}
+[7.015791] (-) TimerEvent: {}
+[7.116041] (-) TimerEvent: {}
+[7.216330] (-) TimerEvent: {}
+[7.316684] (-) TimerEvent: {}
+[7.416925] (-) TimerEvent: {}
+[7.517191] (-) TimerEvent: {}
+[7.617466] (-) TimerEvent: {}
+[7.717733] (-) TimerEvent: {}
+[7.817972] (-) TimerEvent: {}
+[7.918245] (-) TimerEvent: {}
+[8.018539] (-) TimerEvent: {}
+[8.118847] (-) TimerEvent: {}
+[8.219172] (-) TimerEvent: {}
+[8.302492] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.319277] (-) TimerEvent: {}
+[8.419567] (-) TimerEvent: {}
+[8.519877] (-) TimerEvent: {}
+[8.616725] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[8.619949] (-) TimerEvent: {}
+[8.626346] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[8.649731] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[8.656960] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/my_source/ros2_ws/build/cpp_pubsub'], 'cwd': '/my_source/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', 'suyanne-550XBE-350XBE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros'), ('OLDPWD', '/my_source'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/my_source/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.662901] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.663046] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[8.664113] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/my_source/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[8.664272] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[8.666797] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/my_source/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[8.666968] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[8.667143] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[8.667347] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[8.667662] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[8.667826] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[8.668075] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[8.668235] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[8.668349] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[8.668512] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[8.668673] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[8.668887] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[8.669074] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[8.669260] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[8.669415] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[8.669573] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[8.671339] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[8.712534] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[8.713143] (-) EventReactorShutdown: {}

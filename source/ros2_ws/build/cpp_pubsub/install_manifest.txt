@@ -1,0 +1,17 @@
+/my_source/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+/my_source/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+/my_source/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+/my_source/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+/my_source/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+/my_source/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
